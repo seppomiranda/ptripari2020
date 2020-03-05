@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+}
+
+p {
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-align: left;
+}
+
+.c {
+    text-align: center;
+    width: 100vw;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #253764;
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: 3rem;
+        margin: 0.7rem 0.3rem 0 0;
+        transform: rotate(20deg);
+    }
+    h1 {
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1.5rem 0;
+        font-size: 2rem;
+    }
+}
+
+// Yleistä ja Header ^
+
+section {
+    text-align: center;
+    padding: 1rem;
+}
+
+.list {
+    text-align: start;
+
+    li {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.1rem;
+    }
+}
+
+#markusTeht {
+    border: solid 1px #253764;
+    border-radius: 30px;
+    padding: 0.8rem;
+    font-weight: 900;
+    font-size: 1.6rem;
+    background-color: #fff;
+    color: #253764;
+    margin: 1rem;
+}
+
+#markus-teht {
+    padding: 1rem; 
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding-bottom: 5rem;
+
+    section {
+        color: #fff;
+
+        img {
+            width: 2.5rem;
+            margin: 1rem;
+        }
+    }
+}
+
+
+// Laulut sivun css
+
+.sanat {
+    width: 100vw;
+
+    img {
+        width: 100vw;
+    }
+}
+
+.showSong {
+    border: none;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: solid 1px #999;
+    padding: 0.7rem 0;
+    width: 80vw;
+}
+
+.a {
+    h1 {
+        color: red;
+    }
+}
+
+// navigointi
+
+nav {
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgba($color: #fff, $alpha: 0.9);
+    border-top: solid 0.5px #999;
+    padding: 0.3rem;
+
+    img {
+        height: 2rem;
+        padding: 0.3rem;
+    }
+    .active {
+        background-color: rgba($color: #333, $alpha: 0.3);
+        border-radius: 50px;
+    }
+}
+
+// ABC
+
+#ulkolaksyt {
+
+
+    article {
+        text-align: left;
+        padding: 1rem 0;
+
+        h2 {
+            margin-left: 1rem;
+        }
+        p {
+            margin-left: 1.5rem;
+        }
+    }
+}
+
+#tehtavia {
+    .showSong {
+        width: 70vw;
+    }
+}
+
+.space {
+    height: 200px;
+}
