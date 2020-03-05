@@ -95,10 +95,19 @@ footer {
 
 .sanat {
     width: 100vw;
-
-    img {
-        width: 100vw;
+    text-align: left;
+    
+    p {
+        letter-spacing: 1px;
+        line-height: 1.6;
+        font-family: Arial, Helvetica, sans-serif;
     }
+    /* img {
+        width: 100vw;
+    } */
+}
+.flex {
+    display: flex;
 }
 
 .showSong {

@@ -99,10 +99,22 @@ footer section img {
 
 .sanat {
   width: 100vw;
+  text-align: left;
+  /* img {
+        width: 100vw;
+    } */
 }
 
-.sanat img {
-  width: 100vw;
+.sanat p {
+  letter-spacing: 1px;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .showSong {
