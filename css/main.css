@@ -105,9 +105,14 @@ footer section img {
     } */
 }
 
+.sanat .kerto {
+  padding: .5rem 3rem;
+}
+
 .sanat p {
   letter-spacing: 1px;
   line-height: 1.6;
+  padding: .5rem 2rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
