@@ -25,6 +25,16 @@ const cacheAssets = [
 // Call Install Event
 self.addEventListener('install', (e) => {
     console.log('Service worker: Installed');
+
+    e.waitUntil(
+        cache
+            .open(cacheName)
+            .then(cache => {
+                console.log('Service worker: Caching Files');
+                cache.addAll(cacheAssets);
+            })
+            .then(() => self.skipWaiting())
+    );
 });
 
 // Call Activate Event
