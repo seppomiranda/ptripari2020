@@ -1,15 +1,15 @@
 const cacheName = 'ptripari2020';
 
 const cacheAssets = [
-    'index.html',
-    'laulut.html',
-    'opiskelut.html',
-    'main.js',
-    '/css/main.css',
-    '/images/kuvakkeet/kirja.svg',
-    '/images/kuvakkeet/logoB.svg',
-    '/images/kuvakkeet/nuotti.svg',
-    '/images/kuvakkeet/koti.svg'
+    '/ptripari2020/index.html',
+    '/ptripari2020/laulut.html',
+    '/ptripari2020/opiskelut.html',
+    '/ptripari2020/main.js',
+    '/ptripari2020/css/main.css',
+    '/ptripari2020/images/kuvakkeet/kirja.svg',
+    '/ptripari2020/images/kuvakkeet/logoB.svg',
+    '/ptripari2020/images/kuvakkeet/nuotti.svg',
+    '/ptripari2020/images/kuvakkeet/koti.svg'
 ]
 
 // Call Install Event
