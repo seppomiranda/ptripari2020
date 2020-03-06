@@ -6,9 +6,7 @@ const cacheAssets = [
     'opiskelut.html',
     'main.js',
     '/css/main.css',
-    '/images/kuvakkeet/ig-color.svg',
     '/images/kuvakkeet/kirja.svg',
-    '/images/kuvakkeet/logo.svg',
     '/images/kuvakkeet/logoB.svg',
     '/images/kuvakkeet/nuotti.svg',
     '/images/kuvakkeet/koti.svg'

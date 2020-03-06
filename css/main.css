@@ -78,25 +78,6 @@ section {
   padding: 1rem;
 }
 
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: #333;
-  padding-bottom: 5rem;
-}
-
-footer section {
-  color: #fff;
-}
-
-footer section img {
-  width: 2.5rem;
-  margin: 1rem;
-}
-
 .sanat {
   width: 100vw;
   text-align: left;
