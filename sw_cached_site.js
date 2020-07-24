@@ -9,7 +9,9 @@ const cacheAssets = [
     '/ptripari2020/images/kuvakkeet/kirja.svg',
     '/ptripari2020/images/kuvakkeet/logoB.svg',
     '/ptripari2020/images/kuvakkeet/nuotti.svg',
-    '/ptripari2020/images/kuvakkeet/koti.svg'
+    '/ptripari2020/images/kuvakkeet/koti.svg',
+    '/ptripari2020/images/kuvakkeet/UTN-v2.svg',
+    '/ptripari2020/images/kuvakkeet/pyha.svg'
 ]
 
 // Call Install Event

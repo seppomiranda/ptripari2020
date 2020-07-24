@@ -156,11 +156,53 @@ nav .active {
   margin-left: 1.5rem;
 }
 
+#ulkolaksytSV article {
+  text-align: left;
+  padding: 1rem 0;
+}
+
+#ulkolaksytSV article h2 {
+  margin-left: 1rem;
+}
+
+#ulkolaksytSV article p {
+  margin-left: 1.5rem;
+}
+
+#ulkolaksytSV li {
+  padding-right: 2rem;
+}
+
 #tehtavia .showSong {
   width: 70vw;
 }
 
 .space {
-  height: 120px;
+  height: 200px;
+}
+
+#ristikot article {
+  padding: 0.5rem;
+}
+
+#ristikot article h2 {
+  padding: 1rem;
+}
+
+#ristikot article h3 {
+  padding: 0 20vw 0.5rem 20vw;
+}
+
+#ristikot article p {
+  text-align: left;
+  padding: 0.5rem 3rem;
+}
+
+#ristikot #ristiko1 {
+  width: 50vw;
+}
+
+#ristikot #ristiko2 {
+  width: 80vw;
 }
 /*# sourceMappingURL=main.css.map */
